@@ -1,36 +1,102 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🍕 Pizza Orders - Next.js App
 
-## Getting Started
+A modern and stylish pizza order tracking web application built with **Next.js**, **TypeScript**, and **Tailwind CSS**.
 
-First, run the development server:
+This app allows users to browse pizza orders with real-time search, view detailed order statuses, and authenticate securely using **Google OAuth 2.0**. Designed with a clean UI and mobile responsiveness in mind.
+
+---
+
+## 🚀 Features
+
+- ✅ Display a list of pizza orders with customer and order information  
+- 🔍 Real-time search by pizza or customer name  
+- 🟢 Color-coded status badges: Pending, Preparing, Out for Delivery, Delivered, Cancelled  
+- 🍕 Dynamic pizza background images for each order card  
+- 🔐 Google OAuth 2.0 authentication  
+- 💾 Session persistence across page reloads  
+- 📱 Responsive design using Tailwind CSS  
+- ⚙️ Environment variable management for secure OAuth credentials  
+- 🧼 Clean, modular React + TypeScript code following Next.js best practices  
+
+---
+
+## 📦 Tech Stack
+
+- [Next.js](https://nextjs.org/) – React framework for production  
+- [TypeScript](https://www.typescriptlang.org/) – Static type checking  
+- [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS framework  
+- [NextAuth.js](https://next-auth.js.org/) – Authentication solution for Next.js  
+- [Google OAuth 2.0](https://developers.google.com/identity) – Secure login  
+
+---
+
+## 🛠️ Getting Started
+
+### ✅ Prerequisites
+
+- [Node.js](https://nodejs.org/) (v16 or newer recommended)  
+- npm (comes with Node.js)
+
+---
+
+### 📥 Installation & Setup
 
 ```bash
+# 1. Clone the repository
+git clone https://github.com/yourusername/pizza-orders-nextjs.git
+cd pizza-orders-nextjs
+
+# 2. Install dependencies
+npm install
+
+# 3. Create a .env.local file in the root directory and add your Google OAuth credentials
+
+# .env.local
+GOOGLE_CLIENT_ID=your-google-client-id
+GOOGLE_CLIENT_SECRET=your-google-client-secret
+NEXTAUTH_URL=http://localhost:3000
+
+# 4. Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Then open your browser and visit:  
+👉 [http://localhost:3000](http://localhost:3000)
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🔑 Usage
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- 🔐 **Login** using your Google account  
+- 🍕 **Browse** the list of pizza orders  
+- 🔍 **Search** orders by pizza or customer name in real-time  
+- 🏷️ **View order status** with color-coded badges  
+- 🔄 **Session persists** across page reloads for a smooth experience
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## ✨ Code Highlights
+
+- 🧩 Functional components with **TypeScript** typings  
+- ⚛️ State management via `useState` and `useEffect`  
+- 🎨 **Tailwind CSS** for utility-first responsive design  
+- ♿ Semantic HTML with accessibility best practices  
+- 🗂️ Static data stored in `/data/data.json`  
+- 🔐 Environment variables for storing sensitive data securely  
+- 🖼️ Next.js `public` folder used for static assets (e.g., pizza images)
+
+
+
+---
+
+## 🔗 Live Demo
+
+👉 [View Live Demo](https://your-live-demo-url.vercel.app)
+
+---
+
+
+
