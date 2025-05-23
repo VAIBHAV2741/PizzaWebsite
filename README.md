@@ -94,7 +94,7 @@ Then open your browser and visit:
 
 ## 🔗 Live Demo
 
-👉 [View Live Demo](https://your-live-demo-url.vercel.app)
+👉 https://fe-assesment-ap7cpmzmx-vaibhav-sharmas-projects-871cf6d0.vercel.app/
 
 ---
 
